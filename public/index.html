@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Laba2</title>
+</head>
+<body>
+    <div class="wrap">
+        <br>
+        <br>
+        <form method="POST" id="formx" action="javascript:void(null);" onsubmit="sendForm()">
+            <input id='a' type="number" step="0.000001" name='a' placeholder="От">
+            <input id='b' type="number" step="0.000001" name='b' placeholder="До">
+            <input id='k' type="number" step="0.000001" name='k' placeholder="Шаг">
+            <input type="submit" id="form_btn" value="GO!">
+        </form>
+        <div class="results">
+            <div id="extr">
+
+            </div>
+            <div id="ars">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

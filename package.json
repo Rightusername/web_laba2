@@ -1,0 +1,17 @@
+{
+  "name": "mysqlApp",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "start":"node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  }
+}
